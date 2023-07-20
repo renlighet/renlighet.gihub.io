@@ -40,6 +40,11 @@
 .rgba-secondary-2-3 { color: rgba(180,120,165,1) }
 .rgba-secondary-2-4 { color: rgba(238,238,238,1) }
 
+.logo {
+    max-width: 3em;
+    height: auto;
+}
+
 .full-page {
         /* Center the content */
         align-items: center;
