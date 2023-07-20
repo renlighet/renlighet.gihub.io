@@ -69,7 +69,7 @@
       radial-gradient(27% 29% at left  ,var(--_g)) calc(var(--s)/-2) var(--s),
       radial-gradient(29% 27% at top   ,var(--_g)) 0 calc(var(--s)/ 2),
       radial-gradient(29% 27% at bottom,var(--_g)) 0 calc(var(--s)/-2)
-      rgb(71, 96, 116);
+      rgb(241,241,241);
     background-size: calc(2*var(--s)) calc(2*var(--s));
   }
 
