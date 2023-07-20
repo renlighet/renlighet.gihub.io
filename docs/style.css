@@ -118,4 +118,9 @@
   section {
     color: #852C64;
   }
+
+  p, h1, h2,h3,h4,h5,n6 {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
   
