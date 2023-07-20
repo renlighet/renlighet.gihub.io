@@ -205,7 +205,7 @@ code {
 }
 
 .flowers {
-    --s: 5em; /* control the size */
+    --s: 2em; /* control the size */
     
     --_g: #0000 83%,rgb(255, 233, 246) 85% 99%,#0000 101%;
     background:
@@ -213,7 +213,7 @@ code {
       radial-gradient(27% 29% at left  ,var(--_g)) calc(var(--s)/-2) var(--s),
       radial-gradient(29% 27% at top   ,var(--_g)) 0 calc(var(--s)/ 2),
       radial-gradient(29% 27% at bottom,var(--_g)) 0 calc(var(--s)/-2)
-      rgb(241,241,241);
+      rgb(255, 233, 246);
     background-size: calc(2*var(--s)) calc(2*var(--s));
   }
 
