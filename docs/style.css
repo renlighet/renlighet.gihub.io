@@ -66,7 +66,7 @@
 }
 
 .flowers {
-    --s: 60px; /* control the size */
+    --s: 5em; /* control the size */
     
     --_g: #0000 83%,rgb(255, 233, 246) 85% 99%,#0000 101%;
     background:
@@ -79,8 +79,8 @@
   }
 
   .beans {
-    --s: 55px; /* control the size */
-    --b: 15px; /* control the thickness of the curved lines */
+    --s: 5em; /* control the size */
+    --b: 1em; /* control the thickness of the curved lines */
     
     --_r: calc(1.28*var(--s) + var(--b)/2) at top 50%;
     --_f: calc(99.5% - var(--b)),#F9F2E7 calc(101% - var(--b)) 99.5%,#0000 101%;
@@ -97,7 +97,7 @@
   }
 
   .bricks {
-    --s: 200px; /* control the size */
+    --s: 2em; /* control the size */
     --c: #fff; /* first color */
     
     --_g: #0000 8%,var(--c) 0 17%,#0000 0 58%;
