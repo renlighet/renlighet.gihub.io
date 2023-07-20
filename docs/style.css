@@ -91,9 +91,9 @@
     background-size: var(--_s) calc(4*var(--s));
   }
 
-  html, body, section {
-    margin: 0;
-    padding: 0;
+  html, body, main, section {
+    margin: 0px;
+    padding: 0px;
   }
 
   section {
