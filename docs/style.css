@@ -40,20 +40,54 @@
 .rgba-secondary-2-3 { color: rgba(180,120,165,1) }
 .rgba-secondary-2-4 { color: rgba(238,238,238,1) }
 
-.vertical-lines {
-    /* Center the content */
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    /* Take full size */
-    height: 100vh;
-    width: 100%;
+.full-page {
+        /* Center the content */
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     
+        /* Take full size */
+        height: 100vh;
+        width: 100%;
+}
+
+.vertical-lines {    
     /* Background */
     background-color: rgba(255,255,255,1);
     opacity: 1;
     background-image: linear-gradient(to right, rgb(255, 233, 246), rgb(255, 233, 246) 5px, rgba(255,255,255,1) 5px, rgba(255,255,255,1) );
     background-size: 10px 100%;
 }
+
+.flowers {
+    --s: 60px; /* control the size */
+    
+    --_g: #0000 83%,rgb(255, 233, 246) 85% 99%,#0000 101%;
+    background:
+      radial-gradient(27% 29% at right ,var(--_g)) calc(var(--s)/ 2) var(--s),
+      radial-gradient(27% 29% at left  ,var(--_g)) calc(var(--s)/-2) var(--s),
+      radial-gradient(29% 27% at top   ,var(--_g)) 0 calc(var(--s)/ 2),
+      radial-gradient(29% 27% at bottom,var(--_g)) 0 calc(var(--s)/-2)
+      #476074;
+    background-size: calc(2*var(--s)) calc(2*var(--s));
+  }
+
+  .beans {
+    --s: 55px; /* control the size */
+    --b: 15px; /* control the thickness of the curved lines */
+    
+    --_r: calc(1.28*var(--s) + var(--b)/2) at top 50%;
+    --_f: calc(99.5% - var(--b)),#F9F2E7 calc(101% - var(--b)) 99.5%,#0000 101%;
+    --_g0: calc(-.8*var(--s)), #88A65E var(--_f);
+    --_g1: calc(-.8*var(--s)), #BFB35A var(--_f);
+    --_s: calc(1.8*var(--s) + var(--b));
+    background: 
+      radial-gradient(var(--_r) right var(--_g0)) calc(-1*var(--_s)) var(--s),
+      radial-gradient(var(--_r) left  var(--_g1))         var(--_s)  calc(-1*var(--s)),
+      radial-gradient(var(--_r) right var(--_g1)) calc(var(--_s)/-2) calc(-1*var(--s)),
+      radial-gradient(var(--_r) left  var(--_g0)) calc(var(--_s)/ 2) var(--s),
+      linear-gradient(90deg,#88A65E 50%,#BFB35A 0);
+    background-size: var(--_s) calc(4*var(--s));
+  }
+  
