@@ -1,2 +1,2 @@
-# renlighet.gihub.io
+# renlighet.github.io
 Renlighet
