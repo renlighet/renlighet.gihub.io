@@ -201,7 +201,7 @@ a, a:visited, a:focus {
 }
 
 .flowers {
-    --s: 2em; /* control the size */
+    --s: 1em; /* control the size */
     
     --_g: #0000 83%,rgb(255, 255, 255) 85% 99%,#0000 101%;
     background:
