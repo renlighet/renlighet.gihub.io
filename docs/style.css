@@ -260,6 +260,8 @@ a, a:visited, a:focus {
 
   .wrapper {
     display: inline-block;
+    width: 80%;
+    margin: 10%;
   }
 
   @media(min-width: 30em) {
