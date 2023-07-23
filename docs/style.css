@@ -177,6 +177,17 @@ code {
 .rgba-secondary-2-3 { color: rgba(180,120,165,1) }
 .rgba-secondary-2-4 { color: rgba(238,238,238,1) }
 
+.full-page {
+  /* Center the content */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* Take full size */
+  width: 100%;
+}
+
 .logo {
     max-width: 3em;
     height: auto;
@@ -248,22 +259,21 @@ code {
     font-family: 'Poppins', serif;
   }
 
+  .wrapper {
+    display: flex;  
+    flex-wrap: wrap;
+  }
+
   @media(min-width: 30em) {
     p, h1, h2,h3,h4,h5,n6 {
       max-width: 50%;
     }
 
     .full-page {
-      /* Center the content */
-      align-items: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-  
       /* Take full size */
       height: 100vh;
-      width: 100%;
-}
+      overflow-x: hidden;
+    }
   }
 
   @media(max-width: 30em) {
