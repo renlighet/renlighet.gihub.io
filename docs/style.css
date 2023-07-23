@@ -204,7 +204,7 @@ code {
 .flowers {
     --s: 2em; /* control the size */
     
-    --_g: #0000 83%,rgb(255, 233, 246) 85% 99%,#0000 101%;
+    --_g: #0000 83%,rgb(255, 255, 255) 85% 99%,#0000 101%;
     background:
       radial-gradient(27% 29% at right ,var(--_g)) calc(var(--s)/ 2) var(--s),
       radial-gradient(27% 29% at left  ,var(--_g)) calc(var(--s)/-2) var(--s),
@@ -260,8 +260,7 @@ code {
   }
 
   .wrapper {
-    display: flex;  
-    flex-wrap: wrap;
+    display: inline-block;
   }
 
   @media(min-width: 30em) {
