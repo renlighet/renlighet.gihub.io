@@ -178,14 +178,13 @@ code {
 .rgba-secondary-2-4 { color: rgba(238,238,238,1) }
 
 .full-page {
-  /* Center the content */
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
   /* Take full size */
   width: 100%;
+}
+
+a, a:visited, a:focus {
+  color: rgb(199,133,168);
+  text-decoration: none;
 }
 
 .logo {
