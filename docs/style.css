@@ -179,9 +179,12 @@ a, a:visited, a:focus {
 }
 
 ul {
-  list-style-type: "✓";
-  list-style-position: outside;
-  list-style-image: none;
+  list-style: none;
+}
+
+ul li::before {
+  content: "✓"; 
+  color: rgb(190,127,167);
 }
 
 section {
