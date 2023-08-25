@@ -192,11 +192,6 @@ ul li::before {
   color: rgb(190,127,167);
 }
 
-section {
-  border-radius: 1em;
-  padding: 5em;
-}
-
 .logo {
     max-width: 3em;
     height: auto;
@@ -264,7 +259,6 @@ section {
     color: #852C64;
     width: 100%;
     margin: 0;
-    padding: 4em 4em 0;
   }
 
   p, h1, h2,h3,h4,h5,n6 {
@@ -282,6 +276,10 @@ section {
   @media(min-width: 30em) {
     p, h1, h2,h3,h4,h5,n6 {
       max-width: 60em;
+    }
+    section {
+      border-radius: 1em;
+      padding: 4em 4em 0;
     }
   }
 
