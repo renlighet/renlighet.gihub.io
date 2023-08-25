@@ -247,7 +247,7 @@ ul li::before {
   }
 
   @media(min-width: 30em) {
-    p, h1, h2,h3,h4,h5,n6 {
+    p,h1,h2,h3,h4,h5,h6,ul,ol,table {
       max-width: 60em;
     }
     section {
