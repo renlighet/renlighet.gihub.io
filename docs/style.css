@@ -260,10 +260,6 @@ ul li::before {
     margin: 0;
   }
 
-  p, h1, h2,h3,h4,h5,n6 {
-    font-family: 'Poppins', serif;
-  }
-
   .wrapper {
     display: inline-block;
     width: 100%;
