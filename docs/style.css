@@ -183,7 +183,7 @@ ul {
 }
 
 ul li::before {
-  content: "✓"; 
+  content: "✓ "; 
   color: rgb(190,127,167);
 }
 
