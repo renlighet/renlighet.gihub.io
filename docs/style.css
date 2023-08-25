@@ -110,7 +110,7 @@ table {
 }
 table td,
 table th {
-  padding: 1em 0.5em;
+  padding: 0.5em 1em;
   line-height: 33px;
 }
 /* Code blocks */
@@ -124,6 +124,11 @@ code {
 /* Hug the block above you */
 .hug {
   margin-top: 0;
+}
+
+tr:hover, 
+tr:focus {
+  background-color: #F1F1F1;
 }
 
 /* Palette URL: http://paletton.com/#uid=557050kllll++2Jw0c2aGuE00SQ */
