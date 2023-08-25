@@ -218,21 +218,7 @@ ul li::before {
   }
 
   .beans {
-    --s: 5em; /* control the size */
-    --b: 1em; /* control the thickness of the curved lines */
-    
-    --_r: calc(1.28*var(--s) + var(--b)/2) at top 50%;
-    --_f: calc(99.5% - var(--b)),#F9F2E7 calc(101% - var(--b)) 99.5%,#0000 101%;
-    --_g0: calc(-.8*var(--s)), rgb(255, 233, 246) var(--_f);
-    --_g1: calc(-.8*var(--s)), rgb(241,241,241) var(--_f);
-    --_s: calc(1.8*var(--s) + var(--b));
-    background: 
-      radial-gradient(var(--_r) right var(--_g0)) calc(-1*var(--_s)) var(--s),
-      radial-gradient(var(--_r) left  var(--_g1))         var(--_s)  calc(-1*var(--s)),
-      radial-gradient(var(--_r) right var(--_g1)) calc(var(--_s)/-2) calc(-1*var(--s)),
-      radial-gradient(var(--_r) left  var(--_g0)) calc(var(--_s)/ 2) var(--s),
-      linear-gradient(90deg,rgb(255, 233, 246) 50%,rgb(241,241,241) 0);
-    background-size: var(--_s) calc(4*var(--s));
+    background-color: rgb(255, 250, 253);
   }
 
   .bricks {
@@ -260,28 +246,32 @@ ul li::before {
     margin: 0;
   }
 
-  .wrapper {
-    display: inline-block;
-    width: 100%;
-    margin: 0;
-    border-radius: 2em;
-    padding: 4em 5em;
-  }
-
   @media(min-width: 30em) {
     p, h1, h2,h3,h4,h5,n6 {
       max-width: 60em;
     }
     section {
-      border-radius: 1em;
       padding: 4em 4em 0;
+    }
+    .wrapper {
+      display: inline-block;
+      width: 100%;
+      margin: 0;
+      border-radius: 2em;
+      padding: 4em 5em;
     }
   }
 
   @media(max-width: 30em) {
-    p, h1, h2,h3,h4,h5,n6 {
+    p,h1,h2,h3,h4,h5,h6,ul,ol,table {
       padding-left: 10px;
       padding-right: 10px;
+    }
+    .wrapper {
+      display: block;
+      width: 100%;
+      margin: 0;
+      padding: 0;
     }
   }
   
